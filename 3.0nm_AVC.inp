@@ -1,0 +1,18 @@
+231004.1743 ! Command file version number ...
+AVC_T62U2   ! ... for this program 
+0           ! IDEBUG - Debug options flag
+3.0         ! DTARGT in nm
+1.0         ! RMIN Radius of innermost sphere for regional scoring
+10000.      ! RMAX Radius of outermost sphere for regional scoring
+0.10        ! DLOGR logarithmic bin size for radius (base 10)
+10          ! NITER Number of iterations
+1           ! ISHARE [1=Do/0=Don't] consider distribution of site volume over different shells (if applicable)
+4           ! ICSMAX max cluster size (for which F_n instead of P_n is determined)
+^^^^^^^^^^^^! DO NOT CHANGE ANY OF THE ABOVE !!!!!!!!!!!!!!!!!!!!!
+TXYZE%%%    ! CODE for data file line structure 
+0           ! ISORT (0: Data not to be sorted, 1: Data to be sorted, 2: Data to be sorted and saved to an output file with prefix 'S_')
+^^^^^^^^^^^^! CHANGE THE PRECEDING TWO LINES IF NEEDED (see AAA_ReadMe.pdf) 
+>>>> PARTRAC with orig. cross sections / Pavel Kundrat, Nuclear Physics Institute, Prague, Czech Republic <<<<
+0           ! NHEADL Number of Header lines
+1           ! NFILES Number of files to process
+ti_opt0_20eV1.dat
